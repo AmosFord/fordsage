@@ -16,3 +16,162 @@
 @import "layouts/_footer";
 @import "layouts/_pages";
 @import "layouts/_posts";
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.alt-background {
+    background-color: #fff;
+    color: #606060;
+}
+.titles {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+a {
+    color: #fff;
+}
+svg {
+    height: 80px;
+    width: 80px; 
+}
+
+svg path {
+    fill: #fff;
+    stroke: blue;
+    pointer-events: all;
+}
+svg path:hoover {
+    fill: blue;
+}
+.icon-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.intro-text {
+    margin-top: 100px;
+}
+#profile-photo {
+    animation-name: fadein;
+    animation-duration: 10s;
+}
+
+#first-job-title {
+    animation-name: fadein;
+    animation-duration: 6s;
+}
+#second-job-title {
+
+    animation-name: fadein;
+    animation-duration: 10s;
+}
+#third-job-title {
+
+    animation-name: fadein;
+    animation-duration: 12s;
+}
+#coming-soon-text {
+
+    animation-name: example;
+    animation-duration: 12s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {color:grey;  top:200px; opacity: 0;}
+    100% {color: #fff;  top:0px;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {color: gray;  top:200px; opacity: 0;}
+    100% {color: #fff;  top:0px;opacity: 1;}
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example-alt {
+    0%   {color: #fff;  top:200px; opacity: 0;}
+    100% {color: #606060;  top:0px;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example-alt {
+    0%   {color: #fff;  top:200px; opacity: 0;}
+    100% {color: #606060;  top:0px;opacity: 1;}
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {top: 800px;}
+    to {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+   from {top: 800px;}
+    to {top: 0px;}
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; color: #fff;}
+    to   { opacity: 1; color: #fff;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+   from { opacity: 0; color: #fff;}
+    to   { opacity: 1; color: #fff;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; color: #fff;}
+    to   { opacity: 1; color: #fff;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; color: #fff;}
+    to   { opacity: 1; color: #fff;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; color: #fff;}
+    to   { opacity: 1; color: #fff;}
+}
+
+.text-section {
+    padding-bottom: 30px;
+}
+
+.profile-photo {
+    background-position: 0% 10%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fff;
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ski_trail_rating_symbol-blue_square.svg/600px-Ski_trail_rating_symbol-blue_square.svg.png');
+    background-size: 341px;   
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.profile-photo-1 {
+    @extend .profile-photo;
+    background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/photo-2.jpg');
+    background-position: 60% 40%;
+}
+.profile-photo-2 {
+    @extend .profile-photo;
+    background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/photo-1.jpg');
+    background-position: 45% 10%;
+}
+.profile-photo-3 {
+    @extend .profile-photo;
+    background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/photo-3.jpg');
+    background-size: 241px;
+    background-position: 50% 15%;  
+}
