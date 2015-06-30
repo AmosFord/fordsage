@@ -1,0 +1,29 @@
+.sidebar {
+  border-left: 1px solid $brand-light-grey;
+  padding-top: 90px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .widget h3 {
+  color: $brand-primary;
+  padding-left: 5px;
+}
+
+.sidebar .widget ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+.sidebar .widget li:before {
+    content: "";
+    border-color: transparent $brand-light-grey;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}

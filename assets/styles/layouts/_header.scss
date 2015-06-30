@@ -1,0 +1,22 @@
+#menu-main-nav {
+  float: right;
+}
+#menu-main-nav .active a{
+  color: #000;
+  background-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav li a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+.navbar-brand>img {
+ width: 80px;
+ height: 80px;
+}
+.navbar-default {
+	color: #000;
+	background-color: #fff;
+}

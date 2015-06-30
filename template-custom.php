@@ -4,7 +4,6 @@
  */
 ?>
 
-<div class="container">
     
 <div class="col-sm-12 text-center intro-text" >
     <h1>Hey!! I'm Amos Ford. Some would call me a ...</h1>
@@ -59,4 +58,3 @@
 	<h4>"The difference between theory and practice is smaller in theory than in practice."<br> –  Roger Pate </h4>
 </div>
 
-</div>

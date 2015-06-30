@@ -103,5 +103,13 @@
      
     });
 
+  $('.element').responsiveEqualHeightGrid();
+  
+
 })(jQuery); // Fully reference jQuery after this point.
 
+jQuery(document).ready(function(){
+  jQuery('.carousel').carousel({
+   interval: 10000
+  });
+});
