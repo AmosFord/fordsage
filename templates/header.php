@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" style="height:100%;" href="<?= esc_url(home_url('/')); ?>"><img src="<?php echo get_bloginfo('template_directory');?>/assets/images/logos/AF_Logo_Black.png" height="80px" width="80px" alt="AF Logo"></a>
+      <a class="navbar-brand" style="height:100%;" href="<?= esc_url(home_url('/')); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/logos/AmosLogo_Final-02.svg" alt="Amos Ford Logo"></a>
     </div>
     <script type="text/javascript" src="<?php echo get_bloginfo('template_directory');?>/bower_components/javascript-equal-height-responsive-rows/grids.min.js"></script>
     <nav class="collapse navbar-collapse" role="navigation">

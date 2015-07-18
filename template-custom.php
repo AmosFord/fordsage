@@ -4,6 +4,11 @@
  */
 ?>
 
+<div class="jumbotron">
+	<h1>I'm Amos Ford</h1>
+	<p>Breathtaking Nature Stock Photos for FREE!</p>
+    <p><a href="#" class="btn btn-success btn-lg">Click Here »</a></p>
+</div>
     
 <div class="col-sm-12 text-center intro-text" >
     <h1>Hey!! I'm Amos Ford. Some would call me a ...</h1>

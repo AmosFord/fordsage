@@ -4,19 +4,20 @@
 #menu-main-nav .active a{
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #ffffff;
 }
 
 @media (min-width: 768px) {
   .navbar-nav li a {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 35px;
+    margin-bottom: 35px;
   } 
 }
 .navbar-brand>img {
- width: 60px;
- height: 60px;
+ width: 207px;
+ height: 90px;
 }
 .navbar-default {
 	color: #000;
-	background-color: #fff;
+	background-color: #000;
 }

@@ -144,60 +144,11 @@ background-size: cover;
     border-radius: 0;
 }
 
-.jumbotron {
-    color: #fff;
-    text-align: left;
-    padding-top: 50px;
-    background-size: cover;
-    background-position: 75% 50%;
-    padding-bottom: 20px;
-    height: 400px;
-}
-
-
-.jumbotron-text {
-}
-
 .main-heading {
     font-weight: 100;
 }
 
-.jumbotron h1 {
-    padding-top: 50px;
-    font-size: 28px;
-    //font-weight: 200;
-}
 
-.jumbotron p {
-    font-size: 20px;
-    text-align: left;
-}
-
-@media only screen and (max-device-width: $screen-sm-min) {
-/* Styles */
-  .jumbotron {
-       color: #000000;
-      text-align: left;
-      padding-top: 10px;
-      background-size: cover;
-      background-position: 75% 50%;
-      padding-bottom: 20px;
-      height: auto;
-      background-color: #fff;
-     background-image:none !important;
-    }
-    .jumbotron h1 {
-      padding-top: 0;
-      font-size: 28px;
-      font-weight: 200;
-      color: $brand-primary;
-  }
-
-  .jumbotron p {
-      font-size: 28px;
-      text-align: left;
-  }
-}
 
 .title-text-button-header h4 {
   padding-bottom: 10px;
@@ -316,17 +267,6 @@ background-size: cover;
   border-spacing: 0;
 }
 
-.contact-form {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.6) 100%), url("http://paradigm.sunnychron.com/wp-content/uploads/2015/04/dreamstime_m_31048324.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
-.contact-form h4 {
-  text-align: center;
-  padding-bottom: 10px;
-  border-spacing: 2px;
-}
-
 .contact-listings {
   padding-bottom: 20px;
 }
@@ -361,16 +301,7 @@ background-size: cover;
   padding-top: 40px;
 }
 
-.wpcf7 input[type="text"],
-.wpcf7 input[type="email"],
-.wpcf7 input[type="select"],
-.wpcf7 textarea,
-.form-control,
-{
-    background-color: $brand-light-grey;
-    color: #000;
-    width: 100%;
-}
+
 
 .button {
   background-color: #428bca;
@@ -577,7 +508,9 @@ body {
   color: #fff;
   font-family: 'Roboto', sans-serif !important;
 }
-
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5, .h6  {
+  font-family: 'Oswald', sans-serif !important;
+}
 .alt-background {
     background-color: #fff;
     color: #606060;
@@ -736,3 +669,22 @@ svg path:hoover {
     background-size: 241px;
     background-position: 50% 15%;  
 }
+
+.wpcf7 input {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff; 
+}
+.wpcf7-textarea {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff; 
+}
+
+.jumbotron {
+    /* add bootstrap jumbotron background image */
+     background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/deskpic.jpg');
+    /* change bootstrap jumbotron text color */
+    color: #FFF;
+}
+
