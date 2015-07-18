@@ -589,6 +589,11 @@ body {
 a {
     color: #fff;
 }
+/* mouse over link */
+a:hover {
+    color: #0000FF;
+    text-decoration: none;
+}
 svg {
     height: 80px;
     width: 80px; 
@@ -596,7 +601,7 @@ svg {
 
 svg path {
     fill: #fff;
-    stroke: blue;
+    stroke: #fff;
     pointer-events: all;
 }
 svg path:hoover {
