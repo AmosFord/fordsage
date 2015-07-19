@@ -5,37 +5,38 @@
 ?>
 
 <div class="jumbotron text-center">
-	<h3>I'm a </h3>
-	<h3>Front-End Developer</h3>
-	<h3>and problem solver</h3>
-    <p><a href="#" class="btn btn-success btn-lg">Learn More</a></p>
-</div>
-    
-<div class="col-sm-12 text-center intro-text" >
-    <h1>Hey!! I'm Amos Ford. Some would call me a ...</h1>
+	<h2>I'm a </h2>
+	<h1>Front-End Developer</h1>
+	<h2>and problem solver</h2>
+    <h3><a href="#" class="white-border-link">Learn More</h3></a></h3>
 </div>
 
-<div class="col-sm-12 titles">
-	<div class="hidden-xs col-sm-4 col-md-4 col-md-offset-1 col-lg-3 col-lg-offset-2">
-		<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
-			<div id="profile-photo" class="profile-photo-2 col-sm-6 col-sm-offset-3"></div>
-		</div>
-	</div> 
-	<div class="col-sm-8 col-md-7 col-lg-5">   
-    		<div id="first-job-title" class="col-sm-12 text-center">
-        		<div class="col-sm-12"><p><h3>Front-End Developer</h3></p></div>
-    		</div>
-   	 	<div id="second-job-title" class="col-sm-12 text-center">
-        		<div class="col-sm-12"><p><h3>Innovative Solutionist</h3></p></div>
-    		</div>
-   		<div id="third-job-title" class="col-sm-12 text-center">
-        		<div class="col-sm-12"><p><h3>Avid Cereal Enthusiast</h3></p></div>
-    		</div>
- 	</div>
+<div class="col-sm-12 text-center icon-section text-center">
+    	<div id="github-home-svg" class="col-sm-4 ">
+		<a href="https://github.com/AmosFord" target="_blank">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/projectmanagericon.png" alt="Smiley face"  class="img-responsive">
+			<h4>Project Management</h4>		
+		</a>
+    	</div>
+	<div id="linkedin-home-svg" class="col-sm-4 ">
+		<a href="https://www.linkedin.com/in/amosford" target="_blank">
+			<img src="<?php echo bloginfo('stylesheet_directory'); ?>/assets/images/webdevelopmenticon.png" alt="Smiley face"  class="img-responsive">
+			<h4>Web Development</h4>
+		</a>
+    	</div>
+    	<div id="facebook-home-svg" class="col-sm-4 ">
+		<a href="https://www.facebook.com/aceakahighdepth" target="_blank">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/Problemsolvingicon.png" alt="Smiley face" class="img-responsive">
+			<h4>Innovative Consultant</h4>
+		</a>
+    	</div>  
+
 </div>
-<div id="coming-soon-text" class="col-sm-12 text-section text-center">   
-    <p><h4>I would describe myself as a guy enjoying the early stages of his career. I believe in efficient work, creative solutions, and an agile lifestyle.</p>
-    <p>This site is still under development. Find out more about me by visiting one of my other sites. </h4></p>
+
+<div class="col-sm-12 text-center intro-text test-center" >
+    <h3>About Me</h3>
+    <p>I would describe myself as a guy enjoying the early stages of his career. I believe in efficient work, creative solutions, and an agile lifestyle.</p>
+    <p>This site is still under development. Find out more about me by visiting one of my other sites. </p>
 </div>
     
 <div class="col-sm-12 text-center icon-section">

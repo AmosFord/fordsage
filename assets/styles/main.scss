@@ -541,11 +541,27 @@ svg path:hoover {
     fill: blue;
 }
 .icon-section {
-    margin-top: 30px;
-    margin-bottom: 30px;
+  background-color: #fff;
+  color: #000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+
+  a {
+    color: #000;
+  }
+  a:hover {
+    color: #0000FF;
+  } 
+  .img-responsive {
+    margin: 0 auto;
+}
 }
 .intro-text {
-    margin-top: 100px;
+    background-color: $brand-light-grey;
+    color: #000; 
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #profile-photo {
     animation-name: fadein;
@@ -684,7 +700,17 @@ svg path:hoover {
 .jumbotron {
     /* add bootstrap jumbotron background image */
      background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/deskpic.jpg');
-    /* change bootstrap jumbotron text color */
+    background-size: cover;
+    background-position: fixed;
     color: #FFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+.white-border-link {
+   border: 2px solid #fff;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
 
