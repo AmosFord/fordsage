@@ -37,7 +37,7 @@
 <div class="col-sm-12 text-center intro-text" >
     <h3>A brief background</h3>
     <div class="col-sm-8 col-sm-offset-2">
-	    <p> My interest in software development stemmed from my passion for technology. Between developing websites and checking out the lastest technology, I spend most
+	    <p> My interest in software development stemmed from my passion for technology. Between developing websites and checking out the latest technology, I spend most
 	     of my time in front of the computer. Some of my passions include writting clean code, creating modern user experiences and listening to great music.</p>
 	    <p>This site is still under development. Contact me to find out more. </p>
     </div>
