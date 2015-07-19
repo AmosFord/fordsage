@@ -9,7 +9,7 @@
 	<h1>Front-End Developer</h1>
 	<h2>and problem solver</h2>
     <h3><a href="/contact" class="white-border-link">Contact</a>
-    &nbsp;&nbsp;<?php echo do_shortcode('[download id="25" template="basic"]'); ?> </h3>
+    &nbsp;&nbsp;<?php echo do_shortcode('[download id="17" template="basic"]'); ?> </h3>
 </div>
 
 <div class="col-sm-12 text-center icon-section text-center">
