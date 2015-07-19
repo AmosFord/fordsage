@@ -8,7 +8,8 @@
 	<h2>I'm a </h2>
 	<h1>Front-End Developer</h1>
 	<h2>and problem solver</h2>
-    <h3><a href="#" class="white-border-link">Learn More</h3></a></h3>
+    <h3><a href="/contact" class="white-border-link">Contact</a>
+    &nbsp;&nbsp;<?php echo do_shortcode('[download id="25" template="basic"]'); ?> </h3>
 </div>
 
 <div class="col-sm-12 text-center icon-section text-center">
@@ -33,13 +34,18 @@
 
 </div>
 
-<div class="col-sm-12 text-center intro-text test-center" >
-    <h3>About Me</h3>
-    <p>I would describe myself as a guy enjoying the early stages of his career. I believe in efficient work, creative solutions, and an agile lifestyle.</p>
-    <p>This site is still under development. Find out more about me by visiting one of my other sites. </p>
+<div class="col-sm-12 text-center intro-text" >
+    <h3>A brief background</h3>
+    <div class="col-sm-8 col-sm-offset-2">
+	    <p> My interest in software development stemmed from my passion for technology. Between developing websites and checking out the lastest technology, I spend most
+	     of my time in front of the computer. Some of my passions include writting clean code, creating modern user experiences and listening to great music.</p>
+	    <p>This site is still under development. Contact me to find out more. </p>
+    </div>
 </div>
     
 <div class="col-sm-12 text-center icon-section">
+
+
     	<div id="github-home-svg" class="col-sm-4 text-center">
 		<a href="https://github.com/AmosFord" target="_blank">
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/github-icon-svg.svg" alt="Smiley face" height="60" width="60"  class="svg">
@@ -59,9 +65,11 @@
 		</a>
     	</div>  
 
+    	<div class="col-sm-12 text-center">
+			<p>"The difference between theory and practice is smaller in theory than in practice."<br> –  Roger Pate </p>
+		</div>
+
 </div>
 
-<div class="col-sm-12  text-section text-center">
-	<h4>"The difference between theory and practice is smaller in theory than in practice."<br> –  Roger Pate </h4>
-</div>
+
 

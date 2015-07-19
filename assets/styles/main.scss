@@ -508,12 +508,16 @@ body {
   color: #fff;
   font-family: 'Roboto', sans-serif !important;
 }
-h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5, .h6  {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
   font-family: 'Oswald', sans-serif !important;
 }
 .alt-background {
     background-color: #fff;
-    color: #606060;
+    color: #000;
+}
+.alt-2-background {
+    background-color: $brand-light-grey;
+    color: #000;
 }
 .titles {
     margin-top: 50px;
@@ -533,12 +537,12 @@ svg {
 }
 
 svg path {
-    fill: #fff;
-    stroke: #fff;
+    fill: #000;
+    stroke: #000;
     pointer-events: all;
 }
 svg path:hoover {
-    fill: blue;
+    fill: $brand-dark-grey;
 }
 .icon-section {
   background-color: #fff;
@@ -654,6 +658,7 @@ svg path:hoover {
 }
 
 .text-section {
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -686,24 +691,27 @@ svg path:hoover {
     background-position: 50% 15%;  
 }
 
-.wpcf7 input {
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
   color: #000;
   border: 2px solid #000;
   background-color: #fff; 
 }
-.wpcf7-textarea {
-  color: #000;
-  border: 2px solid #000;
-  background-color: #fff; 
+.wpcf7 input[type="submit"] {
+  color: #fff;
+  border: 2px solid $brand-light-grey;
+  background-color: #000; 
 }
 
 .jumbotron {
     /* add bootstrap jumbotron background image */
-     background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/deskpic.jpg');
+    background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/deskpic.jpg');
     background-size: cover;
     background-position: fixed;
     color: #FFF;
-    padding-top: 100px;
+    margin-top: -125px;
+    padding-top: 125px;
     padding-bottom: 100px;
 }
 
