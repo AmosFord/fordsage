@@ -3,8 +3,11 @@
 }
 #menu-main-nav .active a{
   color: #ffffff;
-  background-color: #000000;
+  background-color: transparent;
   border: 1px solid #ffffff;
+}
+#menu-main-nav a:hover {
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {

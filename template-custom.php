@@ -14,22 +14,16 @@
 
 <div class="col-sm-12 text-center icon-section text-center">
     	<div id="github-home-svg" class="col-sm-4 ">
-		<a href="https://github.com/AmosFord" target="_blank">
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/projectmanagericon.png" alt="Smiley face"  class="img-responsive">
 			<h4>Project Management</h4>		
-		</a>
     	</div>
 	<div id="linkedin-home-svg" class="col-sm-4 ">
-		<a href="https://www.linkedin.com/in/amosford" target="_blank">
 			<img src="<?php echo bloginfo('stylesheet_directory'); ?>/assets/images/webdevelopmenticon.png" alt="Smiley face"  class="img-responsive">
 			<h4>Web Development</h4>
-		</a>
     	</div>
     	<div id="facebook-home-svg" class="col-sm-4 ">
-		<a href="https://www.facebook.com/aceakahighdepth" target="_blank">
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/Problemsolvingicon.png" alt="Smiley face" class="img-responsive">
 			<h4>Innovative Consultant</h4>
-		</a>
     	</div>  
 
 </div>
