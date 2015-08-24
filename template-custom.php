@@ -15,7 +15,7 @@
 <div class="col-sm-12 text-center icon-section text-center">
     	<div id="github-home-svg" class="col-sm-4 ">
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/projectmanagericon.png" alt="Smiley face"  class="img-responsive">
-			<h4>Project Management</h4>		
+			<h4>Product Management</h4>		
     	</div>
 	<div id="linkedin-home-svg" class="col-sm-4 ">
 			<img src="<?php echo bloginfo('stylesheet_directory'); ?>/assets/images/webdevelopmenticon.png" alt="Smiley face"  class="img-responsive">
