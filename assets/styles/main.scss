@@ -689,8 +689,6 @@ svg path:hoover {
     /* add bootstrap jumbotron background image */
     background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/deskpic.jpg');
     background-size: cover;
-    background-position: fixed;
-    background-attachment: fixed;
     color: #FFF;
     margin-top: 0;
     padding-top: 80px;
@@ -703,6 +701,13 @@ svg path:hoover {
     padding-top: 125px;
   }
 }
+
+@media (min-width: 1200px) {
+ .jumbotron {
+    background-position: fixed;
+    background-attachment: fixed;
+  }
+} 
 
 .white-border-link {
    border: 2px solid #fff;
