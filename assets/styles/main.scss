@@ -55,9 +55,19 @@
 }
 
 //Custom html
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
 .no-gutter {
   padding-right: 0;
   padding-left: 0;
+}
+
+.container-fluid .container {
+    padding-left:0;
+    padding-right:0;
 }
 
 @media (min-width: $screen-sm-min) {
@@ -656,22 +666,7 @@ svg path:hoover {
     background-repeat: no-repeat;
     background-position: 50%;
 }
-.profile-photo-1 {
-    @extend .profile-photo;
-    background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/photo-2.jpg');
-    background-position: 60% 40%;
-}
-.profile-photo-2 {
-    @extend .profile-photo;
-    background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/photo-1.jpg');
-    background-position: 45% 10%;
-}
-.profile-photo-3 {
-    @extend .profile-photo;
-    background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/photo-3.jpg');
-    background-size: 241px;
-    background-position: 50% 15%;  
-}
+
 
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
@@ -686,19 +681,22 @@ svg path:hoover {
   background-color: #000; 
 }
 
+.wpcf7-form-control {
+  width: 100%
+}
+
 .jumbotron {
     /* add bootstrap jumbotron background image */
     background-image: url('http://www.amosford.com/wp-content/themes/fordsage/dist/images/deskpic.jpg');
     background-size: cover;
     background-position: fixed;
+    background-attachment: fixed;
     color: #FFF;
     margin-top: 0;
     padding-top: 80px;
     padding-bottom: 100px;
 }
-.jumbotron-about {
-  background-image: url('http://127.0.0.1:8888/wp-content/themes/fordsage/dist/images/smartphone-vintage-technology-music.jpg');
-}
+
 @media (min-width: 768px) {
  .jumbotron {
     margin-top: -125px;
@@ -712,5 +710,52 @@ svg path:hoover {
    padding-right: 5px;
 }
 
+.fun-facts {
+  background-color: #fff;
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.fun-images {
+  background-color: $brand-light-grey;
+
+  .img-responsive {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* msie */
+     background-color: #000;
+  }
+}
+
+.dark-grey-text {
+  color: $brand-dark-grey;
+}
+
+.med-grey-text {
+  color: $brand-med-grey;
+}
+
+.light-grey-text {
+  color: $brand-light-grey;
+}
+
+.primary-color-text {
+  color: $brand-primary;
+}
+
+.bottom-border-text {
+  padding-bottom: 10px;
+}
+
+.bottom-border-text:before {
+  content : "";
+  position: absolute;
+  left    : 25%;
+  bottom  : 0;
+  height  : 1px;
+  width   : 50%;  
+  border-bottom:1px solid $brand-light-grey;
+}
 
 
