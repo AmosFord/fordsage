@@ -30,13 +30,13 @@
 <div class="col-sm-12 text-center icon-section fun-images text-center">
 	<div class="container">
 	    <div class="col-sm-4">
-	    	<img src="<?php echo bloginfo('stylesheet_directory'); ?>/assets/images/smartphone-vintage-technology-music.jpg" alt="Smiley face" class="img-responsive">
+	    	<img src="<?php echo bloginfo('stylesheet_directory'); ?>/assets/images/smartphone-vintage-technology-music1.jpg" alt="Smiley face" class="img-responsive">
 	    </div>
 	    <div class="col-sm-4">
-	    	<img src="<?php echo bloginfo('stylesheet_directory'); ?>/assets/images/feet-shoes-foot-skateboard.jpg" alt="Smiley face" class="img-responsive">
+	    	<img src="<?php echo bloginfo('stylesheet_directory'); ?>/assets/images/feet-shoes-foot-skateboard1.jpg" alt="Smiley face" class="img-responsive">
 	    </div>
 	    <div class="col-sm-4">
-	    	<img src="<?php echo bloginfo('stylesheet_directory'); ?>/assets/images/apple-iphone-smartphone-desk.jpg" alt="Smiley face" class="img-responsive">
+	    	<img src="<?php echo bloginfo('stylesheet_directory'); ?>/assets/images/apple-iphone-smartphone-desk1.jpg" alt="Smiley face" class="img-responsive">
 	    </div>
     </div>
 </div>
