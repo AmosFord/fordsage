@@ -16,7 +16,7 @@
 	<div class="container">
     	<div id="github-home-svg" class="col-sm-4 ">
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/projectmanagericon.png" alt="Smiley face"  class="img-responsive">
-			<h4>Product Management</h4>		
+			<h4>Project Management</h4>		
     	</div>
 		<div id="linkedin-home-svg" class="col-sm-4 ">
 			<img src="<?php echo bloginfo('stylesheet_directory'); ?>/assets/images/webdevelopmenticon.png" alt="Smiley face"  class="img-responsive">
@@ -33,9 +33,12 @@
 	<div class="container">
 	    <h3>A brief background</h3>
 	    <div class="col-sm-8 col-sm-offset-2">
-		    <p> My interest in software development stemmed from my passion for technology. Between developing websites and checking out the latest technology, I spend most
-		     of my time in front of the computer. Some of my passions include writting clean code, creating modern user experiences and listening to great music.</p>
-		    <p>This site is still under development. Contact me to find out more. </p>
+		    <p>
+		    	My interest in software development stemmed from my passion for technology. Between developing websites and checking out the latest technology, I spend most of my time in front of the computer. Some of my passions include writting clean code, creating modern user experiences and listening to great music.
+		    </p>
+		    <p>
+		    	This site is still under development. Contact me to find out more. 
+		    </p>
 	    </div>
 	</div>
 </div>
@@ -65,6 +68,9 @@
     	<div class="col-sm-12 text-center">
 			<p>"The difference between theory and practice is smaller in theory than in practice."<br> –  Roger Pate </p>
 		</div>
+
+		
+
 	</div>
 </div>
 
