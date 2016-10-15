@@ -22,7 +22,7 @@
    <div class="container">
 	    <h3>My life</h3>
 	    <div class="col-sm-8 col-sm-offset-2 med-grey-text">
-		    <p>I currently reside in South Florida with my wife and two kids. During most of my free time you will find me playing Minecraft with my sons, listening to the latest music, or cruising my favorite tech blogs. I love checking out the latest tech and discovering how these new inventions are improving our world. Over the years I have lived in 6 different states and worked in various career fields. Throughout all of these changing arenas I discovered my true passion is in creation. Now I strive to use my technological and managerial skills to create useful and effective web solutions. </p>
+		    <p>I currently reside in South Florida with my wife and three kids. During most of my free time you will find me playing Minecraft with my sons, listening to the latest music, or cruising my favorite tech blogs. I love checking out the latest tech and discovering how these new inventions are improving our world. Over the years I have lived in 6 different states and worked in various career fields. Throughout all of these changing arenas I discovered my true passion is in creation. Now I strive to use my technological and managerial skills to create useful and effective web solutions. </p>
 	    </div>
     </div>
 </div>
